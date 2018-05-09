@@ -38,6 +38,7 @@ Example Template Fragment
 -------------------------
 
 .. code-block::
+
     <div class="ref-list">
     <h2>Publications</h2>
         {% for key, entry, record, external in publications %}
