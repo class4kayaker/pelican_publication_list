@@ -47,7 +47,7 @@ Example Template Fragment
             <span><a class="DOI" href="{{ external.DOI }}">DOI</a> </span>
             {%- endif -%}
             {% if external.ARXIV is defined -%}
-            <span><a class="ARXIV" href="{{ external.DOI }}">ARXIV</a></span>
+            <span><a class="ARXIV" href="{{ external.ARXIV }}">ARXIV</a></span>
             {%- endif -%}
             {% if record.link is defined %}
             <span><a href="{{ publication.link }}">Full Text</a> </span>
